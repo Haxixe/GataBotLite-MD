@@ -13,9 +13,9 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
-['593999677026', 'SHOX7-𝙈𝘿 👻🇪🇨', true],
-['593969804746', 'will 👻🇪🇨, true], 
-['593969804746'], ['593999677026']]
+['593999677026', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈', true],
+['593969804746', 'ꪝɪℓℓ  👻🖤', true], 
+['593969804746'],[593969804746]]
 
 global.mods = [] 
 global.prems = []
@@ -25,7 +25,10 @@ global.prems = []
 //  es = Español      id = Bahasa Indonesia       ar = عرب
 //  en = English      pt = Português 
 global.lenguajeGB = es  //<-- Predeterminado en idioma Español 
-global.languageLen = "es"
+
+// confirmación en el ajuste de idioma y owner en la consola
+global.languageLen = ""
+global.registerNumber = ""
 
 // ES ➜ Consigue Apikey en https://platform.openai.com/account/api-keys
 global.openai_key = 'sk-0'
@@ -39,7 +42,7 @@ global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c7
 global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
-global.lolkeysapi = 'WILL-MD'
+global.lolkeysapi = 'GataDios'
 global.itsrose = ['4b146102c4d500809da9d1ff']
 global.baileys = '@whiskeysockets/baileys'
 
@@ -79,31 +82,31 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = 'SHOX7-𝙈𝘿 👻🇪🇨'
-global.author = 'will 👻🇪🇨'
+global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈'
+global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
 
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
 // EN ➜ This part is to display someone's contact using #contact
 global.official = [ 
-['593969804746', 'will 👻🇪🇨, 1], 
+['593969804746', 'ꪝɪℓℓ  👻🖤', 1], 
 ['593969804746', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
 ['593969804746', '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 🥏', 1],
 ['593969804746', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]] 
 
-global.mail = '' //williamsmrch11@gmail.com 
-global.desc = '' //ornizador de torneos
+global.mail = '' //agrega tú correo
+global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
-global.country = '' //🇪🇨
+global.country = '' //agrega tú país ejemplo: 🇪🇨
 
-global.vs = '1.0.2'
+global.vs = '1.3.2-(beta)'
 global.vsJB = '4.0'
 
-global.gt = 'SHOX7-𝙈𝘿 👻🇪🇨'
-global.yt = 
-global.yt2 = 
-global.ig = 
-global.md = 
-global.fb = 
+global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
+global.yt = 'https://youtube.com/@gatadios'
+global.yt2 = 'https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s'
+global.ig = 'https://www.instagram.com/gata_dios'
+global.md = 'https://github.com/GataNina-Li/GataBotLite-MD'
+global.fb = 'https://www.facebook.com/groups/872989990425789/'
 
 global.nna = 'https://chat.whatsapp.com/DVhu9S9Zr7cBFFl26N61U3' //UPDATE GATABOT
 global.nna2 = 'https://chat.whatsapp.com/IXZ0aBryB1cHjNxe0VIm76' //Help
@@ -117,10 +120,10 @@ global.nnnttt2 = 'https://chat.whatsapp.com/EjiaKJWvzaiAmvktpScgEc' //Grupo 7 CO
 global.nnnttt3 = 'https://chat.whatsapp.com/KLpYFsitkgzJ15YQxZrBqO' //Grupo 8 COL
 global.nnnttt4 = 'https://chat.whatsapp.com/J8HOf2T3QYeKu3UN9UBkT6' //Grupo 9 COL
 global.paypal = 'https://paypal.me/OficialGD'
-global.asistencia = 'Wa.me/19393844141' //Dudas? escríbeme...
+global.asistencia = 'Wa.me/593969804746' //Dudas? escríbeme...
 
-global.wm = 'SHOX7-𝙈𝘿 👻🇪🇨 :will 👻🇪🇨'
-global.igfg = 'will 👻🇪🇨-𝙈𝘿'
+global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈 : ꪝɪℓℓ  👻🖤'
+global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
 global.wait = lenguajeGB['smsMeWait']()
 global.wait2 = lenguajeGB.smsWait()
 global.nomorown = owner[0][0]
